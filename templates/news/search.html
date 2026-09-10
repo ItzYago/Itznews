@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pesquise por notícias, artigos e matérias no portal ItzNews.">
+    <title>Buscar notícias | ItzNews</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="brand">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">ItzNews</span>
+                </a>
+            </div>
+
+            <nav class="main-nav" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Tecnologia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Esportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Política</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Entretenimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html" class="nav-link nav-link-search active" aria-label="Buscar notícias">
+                            <span class="search-icon-text">Busca</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main" id="main-content">
+        <div class="search-container">
+            <header class="search-header">
+                <h1 class="search-title">Buscar notícias</h1>
+                
+                <form action="search.html" method="get" class="search-form" role="search">
+                    <div class="search-input-group">
+                        <label for="search-input" class="search-label">Digite o termo da busca</label>
+                        <input 
+                            type="search" 
+                            id="search-input" 
+                            name="q" 
+                            class="search-input" 
+                            placeholder="O que você procura?" 
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit" class="search-button">Buscar</button>
+                    </div>
+                </form>
+
+                <div class="search-results-info">
+                    <p class="results-count">Exibindo resultados para a busca</p>
+                </div>
+            </header>
+
+            <section class="search-results-section" aria-label="Resultados da pesquisa">
+                <div class="news-grid">
+                    <article class="news-card">
+                        <a href="detail.html" class="card-image-link" tabIndex="-1">
+                            <figure class="card-image-wrapper">
+                                <img src="static/images/placeholder.jpg" alt="" class="card-image">
+                            </figure>
+                        </a>
+                        <div class="card-content">
+                            <a href="category.html" class="card-category">Categoria</a>
+                            <h2 class="card-title">
+                                <a href="detail.html" class="card-title-link">Título da Notícia Encontrada</a>
+                            </h2>
+                            <p class="card-excerpt">Resumo da notícia resultado da busca, preparado para inserção de conteúdo dinâmico.</p>
+                            <div class="card-meta">
+                                <span class="card-author">Por Autor</span>
+                                <time datetime="2026-01-01" class="card-date">01/01/2026</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <a href="detail.html" class="card-image-link" tabIndex="-1">
+                            <figure class="card-image-wrapper">
+                                <img src="static/images/placeholder.jpg" alt="" class="card-image">
+                            </figure>
+                        </a>
+                        <div class="card-content">
+                            <a href="category.html" class="card-category">Categoria</a>
+                            <h2 class="card-title">
+                                <a href="detail.html" class="card-title-link">Título da Notícia Encontrada</a>
+                            </h2>
+                            <p class="card-excerpt">Resumo da notícia resultado da busca, preparado para inserção de conteúdo dinâmico.</p>
+                            <div class="card-meta">
+                                <span class="card-author">Por Autor</span>
+                                <time datetime="2026-01-01" class="card-date">01/01/2026</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <a href="detail.html" class="card-image-link" tabIndex="-1">
+                            <figure class="card-image-wrapper">
+                                <img src="static/images/placeholder.jpg" alt="" class="card-image">
+                            </figure>
+                        </a>
+                        <div class="card-content">
+                            <a href="category.html" class="card-category">Categoria</a>
+                            <h2 class="card-title">
+                                <a href="detail.html" class="card-title-link">Título da Notícia Encontrada</a>
+                            </h2>
+                            <p class="card-excerpt">Resumo da notícia resultado da busca, preparado para inserção de conteúdo dinâmico.</p>
+                            <div class="card-meta">
+                                <span class="card-author">Por Autor</span>
+                                <time datetime="2026-01-01" class="card-date">01/01/2026</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <a href="detail.html" class="card-image-link" tabIndex="-1">
+                            <figure class="card-image-wrapper">
+                                <img src="static/images/placeholder.jpg" alt="" class="card-image">
+                            </figure>
+                        </a>
+                        <div class="card-content">
+                            <a href="category.html" class="card-category">Categoria</a>
+                            <h2 class="card-title">
+                                <a href="detail.html" class="card-title-link">Título da Notícia Encontrada</a>
+                            </h2>
+                            <p class="card-excerpt">Resumo da notícia resultado da busca, preparado para inserção de conteúdo dinâmico.</p>
+                            <div class="card-meta">
+                                <span class="card-author">Por Autor</span>
+                                <time datetime="2026-01-01" class="card-date">01/01/2026</time>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="no-results-state" aria-live="polite">
+                    <p class="no-results-message">Nenhuma notícia foi encontrada para a sua pesquisa.</p>
+                    <p class="no-results-suggestion">Tente buscar por outros termos ou verifique a ortografia das palavras digitadas.</p>
+                </div>
+            </section>
+
+            <nav class="pagination" aria-label="Navegação de páginas da busca">
+                <ul class="pagination-list">
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-link pagination-prev" aria-disabled="true" tabindex="-1">Anterior</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-link active" aria-current="page">1</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-link">2</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-link">3</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="#" class="pagination-link pagination-next">Próxima</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="footer-logo">ItzNews</span>
+                <p class="footer-status">Projeto em desenvolvimento</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Navegação institucional">
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Sobre</a></li>
+                    <li><a href="#" class="footer-link">Contato</a></li>
+                    <li><a href="#" class="footer-link">Política de Privacidade</a></li>
+                    <li><a href="#" class="footer-link">Termos de Uso</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-copyright">
+                <p>&copy; 2026 ItzNews. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="static/js/script.js"></script>
+</body>
+</html>

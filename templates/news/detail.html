@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leia a matéria completa e fique por dentro de todos os detalhes no portal ItzNews.">
+    <title>Notícia | ItzNews</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="brand">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">ItzNews</span>
+                </a>
+            </div>
+
+            <nav class="main-nav" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Tecnologia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Esportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Política</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Entretenimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html" class="nav-link nav-link-search" aria-label="Buscar notícias">
+                            <span class="search-icon-text">Busca</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main" id="main-content">
+        <article class="article-container">
+            <nav class="breadcrumb-nav" aria-label="Caminho de navegação">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+                    <li class="breadcrumb-item"><a href="category.html">Categoria</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Título da Notícia</li>
+                </ol>
+            </nav>
+
+            <header class="article-header">
+                <a href="category.html" class="article-category">Nome da Categoria</a>
+                <h1 class="article-title">Título Principal da Notícia</h1>
+                <p class="article-subtitle">Subtítulo ou resumo explicativo da notícia para dar contexto ao leitor sobre o conteúdo abordado.</p>
+
+                <div class="article-meta">
+                    <div class="author-info">
+                        <span class="author-label">Por</span>
+                        <span class="author-name">Nome do Autor</span>
+                    </div>
+                    <div class="date-info">
+                        <span class="publish-date">Publicado em: <time datetime="2026-01-01T08:00">01/01/2026 às 08:00</time></span>
+                        <span class="update-date">Atualizado em: <time datetime="2026-01-01T10:00">01/01/2026 às 10:00</time></span>
+                    </div>
+                </div>
+            </header>
+
+            <figure class="article-featured-media">
+                <img src="static/images/placeholder-large.jpg" alt="Descrição da imagem principal da notícia" class="featured-image">
+                <figcaption class="featured-image-caption">Legenda descritiva da imagem principal e os créditos do fotógrafo.</figcaption>
+            </figure>
+
+            <div class="article-body">
+                <p>Parágrafo de introdução da notícia, estruturado para receber o texto principal vindo do sistema de gerenciamento de conteúdo.</p>
+                <p>Segundo parágrafo expandindo a informação, apresentando fatos, dados e contextualização do acontecimento reportado.</p>
+                
+                <h2>Subtítulo de Seção do Texto</h2>
+                <p>Parágrafo detalhando um aspecto específico da matéria, podendo conter termos em <strong>destaque</strong> ou expressões em <em>itálico</em>.</p>
+                
+                <blockquote class="article-quote">
+                    <p>"Citação relevante de uma fonte, especialista ou entrevistado envolvido no contexto da notícia."</p>
+                    <cite>— Nome da Fonte ou Instituição</cite>
+                </blockquote>
+
+                <p>Parágrafo de desfecho e considerações finais sobre o fato apurado pela reportagem.</p>
+            </div>
+
+            <section class="article-share" aria-label="Compartilhar notícia">
+                <h2 class="share-title">Compartilhar matéria</h2>
+                <ul class="share-list">
+                    <li class="share-item">
+                        <a href="#" class="share-link share-whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                    </li>
+                    <li class="share-item">
+                        <a href="#" class="share-link share-facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    </li>
+                    <li class="share-item">
+                        <a href="#" class="share-link share-x" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+                    </li>
+                    <li class="share-item">
+                        <a href="#" class="share-link share-copy">Copiar link</a>
+                    </li>
+                </ul>
+            </section>
+
+            <nav class="article-post-nav" aria-label="Navegação entre matérias">
+                <div class="nav-previous">
+                    <span class="nav-label">Notícia anterior</span>
+                    <a href="detail.html" class="nav-link-post">Título da Notícia Anterior</a>
+                </div>
+                <div class="nav-next">
+                    <span class="nav-label">Próxima notícia</span>
+                    <a href="detail.html" class="nav-link-post">Título da Próxima Notícia</a>
+                </div>
+            </nav>
+
+            <section class="related-news" aria-label="Notícias relacionadas">
+                <h2 class="section-title">Notícias Relacionadas</h2>
+                <div class="related-grid">
+                    <article class="related-card">
+                        <a href="detail.html" class="related-image-link" tabIndex="-1">
+                            <figure class="related-image-wrapper">
+                                <img src="static/images/placeholder.jpg" alt="" class="related-image">
+                            </figure>
+                        </a>
+                        <div class="related-content">
+                            <a href="category.html" class="related-category">Categoria</a>
+                            <h3 class="related-title">
+                                <a href="detail.html" class="related-title-link">Título da Notícia Relacionada</a>
+                            </h3>
+                            <time datetime="2026-01-01" class="related-date">01/01/2026</time>
+                        </div>
+                    </article>
+
+                    <article class="related-card">
+                        <a href="detail.html" class="related-image-link" tabIndex="-1">
+                            <figure class="related-image-wrapper">
+                                <img src="static/images/placeholder.jpg" alt="" class="related-image">
+                            </figure>
+                        </a>
+                        <div class="related-content">
+                            <a href="category.html" class="related-category">Categoria</a>
+                            <h3 class="related-title">
+                                <a href="detail.html" class="related-title-link">Título da Notícia Relacionada</a>
+                            </h3>
+                            <time datetime="2026-01-01" class="related-date">01/01/2026</time>
+                        </div>
+                    </article>
+
+                    <article class="related-card">
+                        <a href="detail.html" class="related-image-link" tabIndex="-1">
+                            <figure class="related-image-wrapper">
+                                <img src="static/images/placeholder.jpg" alt="" class="related-image">
+                            </figure>
+                        </a>
+                        <div class="related-content">
+                            <a href="category.html" class="related-category">Categoria</a>
+                            <h3 class="related-title">
+                                <a href="detail.html" class="related-title-link">Título da Notícia Relacionada</a>
+                            </h3>
+                            <time datetime="2026-01-01" class="related-date">01/01/2026</time>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="footer-logo">ItzNews</span>
+                <p class="footer-status">Projeto em desenvolvimento</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Navegação institucional">
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Sobre</a></li>
+                    <li><a href="#" class="footer-link">Contato</a></li>
+                    <li><a href="#" class="footer-link">Política de Privacidade</a></li>
+                    <li><a href="#" class="footer-link">Termos de Uso</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-copyright">
+                <p>&copy; 2026 ItzNews. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="static/js/script.js"></script>
+</body>
+</html>

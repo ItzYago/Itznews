@@ -1,0 +1,26 @@
+===================================================================
+                       ITZNEWS - REGRAS DO PROJETO
+===================================================================
+
+1. ESCOPO DO PRODUTO
+   1.1. O ItzNews é estritamente um site de notícias e portal informativo.
+   1.2. O foco principal da plataforma é a organização, navegação e consumo de matérias jornalísticas.
+   1.3. O sistema não deve ser retratado como redes sociais genéricas ou fóruns abertos sem curadoria.
+
+2. DIRETRIZES DE CONTEÚDO E PUBLICAÇÃO
+   2.1. Toda matéria deve estar associada a pelo menos uma categoria válida.
+   2.2. É obrigatória a vinculação de um autor/editor responsável a cada notícia publicada.
+   2.3. As imagens de capa e mídias das matérias devem seguir formatos e dimensões padrão para manter a coerência visual.
+   2.4. Conteúdos na área de comentários devem passar por moderação via painel administrativo.
+
+3. REQUISITOS DE DOCUMENTAÇÃO E README
+   3.1. O arquivo README.md deve conter apenas o conceito do produto, objetivos, funcionalidades e licença.
+   3.2. Não incluir detalhes sobre linguagens de programação, frameworks, bancos de dados ou especificações técnicas no README.
+   3.3. Recursos visuais (GIFs e imagens) no README devem focar na experiência do usuário e na navegação do portal.
+
+4. PADRÕES DE DESIGN E EXPERIÊNCIA DO USUÁRIO (UX)
+   4.1. A interface do leitor deve priorizar a legibilidade do texto e a facilidade de busca.
+   4.2. A navegação entre categorias e buscas por palavras-chave deve ser direta e sem distrações.
+   4.3. A centralização de elementos visuais no portal deve seguir a hierarquia da informação (destaques em topo, seguidos do feed e áreas secundárias).
+
+===================================================================
